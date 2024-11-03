@@ -13,7 +13,7 @@ general:
 
     # path to the dataset file (csv)
     # can be a relative path: ../datasets/data.csv
-    datafile: pca_dataset.csv
+    datafile: notebooks_and_datasets\pca_dataset.csv
     
     # type of problem: either classification or regression
     problem: regression
