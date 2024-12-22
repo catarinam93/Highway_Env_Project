@@ -1,18 +1,18 @@
 # Highway-Env-Tests
 
-**Notebooks:**
-- highway.ipynb: Notebook onde são treinados os modelos
-- features_extraction.ipynb: Notebook onde são extraídas as features
-- pca_clusters.ipynb: Notebook com pre processamento e onde são extraídas as features PCA com variância acima de 90%
+**Notebooks:**  
+- **highway.ipynb:** Notebook where the models are trained  
+- **features_extraction.ipynb:** Notebook where features are extracted  
+- **pca_clusters.ipynb:** Notebook with preprocessing and where PCA features with variance above 90% are extracted  
 
-**Datasets:**
-- summary_df_combined_updated: Dataset onde estão as features extraídas
-- summary_df_combined_updated_1: Dataset onde estão as features extraídas e com pre processamento inicial
-- pca_dataset_updated: Dataset com as features PCA extraídas
-- general_dataset: Dataset com as features e com pre processamento total
+**Datasets:**  
+- **summary_df_combined_updated:** Dataset containing the extracted features  
+- **summary_df_combined_updated_1:** Dataset containing the extracted features with initial preprocessing  
+- **pca_dataset_updated:** Dataset with the extracted PCA features  
+- **general_dataset:** Dataset containing the features with full preprocessing  
 
-**Outros Ficheiros:**
-- environment_config: Consiguração do ambiente de cada modelo
-- ignored_models: Modelos que estão a dar erro na extração de features (os que têm lidar e time to collision)
-- highway_* : Pastas dos modelos treinados
-- pyhard_v1: Ficheiros da geração do pyhard
+**Other Files:**  
+- **environment_config:** Environment configuration for each model  
+- **ignored_models:** Models that produce errors during feature extraction (those with LiDAR and time to collision)  
+- **highway_*:** Folders containing the trained models  
+- **pyhard_v1:** Files for the generation of pyhard  
